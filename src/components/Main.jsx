@@ -25,7 +25,7 @@ const Main = ({ activeNote, onUpdateNote }) => {
           id=""
           placeholder="ノートに内容を記入"
           value={activeNote.content}
-          onChange={(e) => onEditNote('title', e.target.value)}
+          onChange={(e) => onEditNote('content', e.target.value)}
         ></textarea>
       </div>
       <div className="app-main-note-preview">
